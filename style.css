@@ -1,0 +1,87 @@
+.baniere1 {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7a184e0c-c387-480b-a547-1660bb636ac9/2pez-baniere.png");
+  background-repeat: no-repeat;
+  border: 1px solid grey;
+  background-size: 100% 100%;
+}
+.banTitre {
+  color: azure;
+  margin-left: 50px;
+  margin-top: 80px;
+  font-family: Courier New;
+  font-size: 45px;
+  font-weight: bold;
+}
+.contain1 {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 20px;
+  width: 40%;
+  line-height: 200%;
+}
+.contain2 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 50%;
+  line-height: 200%;
+}
+.container {
+  margin-top: 130px;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.titreC {
+  background-color: #4256f4;
+  color: white;
+  text-align: center;
+}
+.contain1Text {
+  color: black;
+}
+.contain2Titre {
+  margin-left: 450px;
+  margin-top: 10px;
+  color: #42cef4;
+  font-size: 30px;
+  border-bottom: 2px solid #42cef4;
+  width: 40%;
+}
+.box1,
+.box2,
+.box3 {
+  border: 2px solid blue;
+  margin-top: 30px;
+}
+a {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  margin-left: 350px;
+}
+a:hover {
+  font-size: 35px;
+}
+.banTitre {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.contain1Text {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
